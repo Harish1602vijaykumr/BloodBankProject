@@ -1,0 +1,40 @@
+/* landing.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Landing_container {
+    text-align: center;
+    margin-top: 100px; /* Adjust as needed */
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+button {
+    width: 200px; /* Set a fixed width */
+    padding: 15px 0;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+
+

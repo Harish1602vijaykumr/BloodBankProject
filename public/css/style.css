@@ -1,0 +1,144 @@
+nav{	 
+	background-color: #002244;
+	color: white;
+	height: 50px;
+}
+h1{
+	margin: 0px;
+	padding: 10px 0 0 5px;
+
+}
+
+body{
+	margin: 0px;
+  background-color: #d9d5d5;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 260px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    margin-top: 50px;
+    background-color: #002244; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    box-shadow: 50px gray;
+  }
+
+  .sidenav a {
+    padding: 16px 18px 16px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  .sidenav a:hover {
+    color:gray;
+  }
+  .content-space{
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: 20px;
+    padding: 2%;
+  }
+  .table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .line {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.line {
+    background-color: #f2f2f2;
+}
+
+.tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tr:hover {
+    background-color: #ddd;
+}
+h2{
+  text-align: center;
+}
+.create-district{
+  position: relative;
+  left: 90%;
+  background-color: #007bff;
+  border-radius: 3px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  
+}
+.create-district:hover{
+  background-color: #033871;
+  color: white;
+}
+.inner-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  height: auto; /* or specify a fixed height, e.g., height: 600px; */
+  overflow: auto;
+}
+
+/* Style for headings */
+.h2_heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for inputs and select */
+.edit_input,
+.select_drop,
+.textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for radio buttons */
+.gender_lable {
+  margin-right: 10px;
+}
+
+/* Style for error messages */
+.text-danger {
+  color: red;
+}
+
+/* Style for buttons */
+.edit_button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.edit_button:hover {
+  background-color: #45a049;
+}
